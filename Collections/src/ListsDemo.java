@@ -9,8 +9,8 @@ public class ListsDemo {
 	}
 	
 	public static void main(String[] args) {
-		ListsDemo coleections = new ListsDemo();
-		Student student = coleections.new Student();
+		ListsDemo colections = new ListsDemo();
+		Student student = colections.new Student();
 		student.id = 1;
 		student.name = "Mike";
 		
