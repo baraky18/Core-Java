@@ -1,9 +1,15 @@
-import java.util.PriorityQueue;
+package implcollection;
 
-public class QueueDemo {
+import java.util.PriorityQueue;
+import java.util.Queue;
+
+public class MyQueue {
 
 	public static void main(String[] args) {
-		PriorityQueue<Integer> queue = new PriorityQueue<Integer>();
+		/*
+		 * Queue interface extends the Collection interface
+		 */
+		Queue<Integer> queue = new PriorityQueue<Integer>();
 		for(int i=10; i>0; i--){
 			queue.add(i);
 		}

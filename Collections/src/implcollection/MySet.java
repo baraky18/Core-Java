@@ -1,14 +1,21 @@
+package implcollection;
+
 import java.util.HashSet;
 import java.util.Iterator;
+import java.util.Set;
 import java.util.TreeSet;
 
-public class SetDemo {
+public class MySet {
 
 	public static void main(String[] args) {
-		HashSet<String> hashSet = new HashSet<String>();
+		/*
+		 * Set interface extends the Collection interface
+		 */
+		Set<String> hashSet = new HashSet<String>();
 
 		hashSet.add("John");
-		hashSet.add("Jack");
+		hashSet.add(""
+				+ "");
 		hashSet.add("Jennie");
 		hashSet.add("Jim");
 		hashSet.add("John");

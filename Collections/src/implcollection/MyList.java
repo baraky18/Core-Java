@@ -1,7 +1,10 @@
+package implcollection;
+
 import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.List;
 
-public class ListsDemo {
+public class MyList {
 
 	public class Student{
 		int id;
@@ -9,13 +12,16 @@ public class ListsDemo {
 	}
 	
 	public static void main(String[] args) {
-		ListsDemo colections = new ListsDemo();
+		MyList colections = new MyList();
 		Student student = colections.new Student();
 		student.id = 1;
 		student.name = "Mike";
 		
+		/*
+		 * List interface extends the Collection interface
+		 */
 		//listString can only store String objects
-		ArrayList<String> listString = new ArrayList<String>();
+		List<String> listString = new ArrayList<String>();
 
 		//listObject can store any type of object
 		ArrayList listObject = new ArrayList();
